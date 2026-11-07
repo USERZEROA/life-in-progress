@@ -1,0 +1,11 @@
+{
+  "name": "life-in-progress",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/time.js && node --check dist/meals.js && node --check dist/widget.js && node --check dist/local-demo.js && node --check dist/sw.js",
+    "test": "node tests/time.test.js && node tests/meals.test.js"
+  }
+}

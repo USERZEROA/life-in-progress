@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Life in Progress</title>
+  <defs>
+    <radialGradient id="sun" cx="35%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#ffddb4"/>
+      <stop offset="42%" stop-color="#f5a77e"/>
+      <stop offset="100%" stop-color="#df775f"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#1d292b"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#465653" stroke-width="35"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#f29873" stroke-width="35" stroke-linecap="round" stroke-dasharray="594 943" transform="rotate(-90 256 256)"/>
+  <circle cx="256" cy="256" r="76" fill="url(#sun)"/>
+  <circle cx="239" cy="234" r="17" fill="#ffe7c9" opacity=".55"/>
+</svg>
